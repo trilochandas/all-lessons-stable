@@ -45,7 +45,7 @@ $arr = array(
 
 <script>
 	console.log('Task #1');
-	name = "Trilochan", age = 26;
+	var name = "Trilochan", age = 26;
 	console.log('My name is ' + name + ' and my age is ' + age + ' years.');
 	delete name;
 
@@ -63,13 +63,14 @@ $arr = array(
 	console.log('Недавно я прочитал книгу ' + book['title'] + ', написанную автором: ' + book["author"] + ', я осилил все ' + book["page"] + ' страниц. Мне она очень понравилась');
 
 	console.log('Task #4');
-	var books = [[
-			'Shikshashtaka', 'Mahaprabhu', 2
-		],
-		[
-			'Manah siksha', 'Das Goswami', 20
-		]
-	];
+	var books = [];
+	var book1 = [];
+	var book2 = [];
+	var book1 = ['Shikshashtaka', 'Mahaprabhu', 2];
+	var book2 = ['Manah siksha', 'Das Goswami', 20];
+	books[0] = book1;
+	books[1] = book2;
+
 	console.log('Недавно я прочитал книги ' + books[0][0] + ' и ' + books[1][0] + ', написанные соответственно авторами ' + books[0][1] + ' и ' + books[1][1] + ', я осилил в сумме ' + (books[0][2] + books[1][2]) + ' страниц, не ожидал от себя подобного.');
 
 
