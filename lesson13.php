@@ -64,17 +64,13 @@ $arr = array(
 
 	console.log('Task #4');
 	var books = [[
-			'title': 'Shikshashtaka',
-			'author': 'Mahaprabhu',
-			'pages': 2
+			'Shikshashtaka', 'Mahaprabhu', 2
 		],
 		[
-			'title': 'Manah siksha',
-			'author': 'Das Goswami',
-			'pages': 20
+			'Manah siksha', 'Das Goswami', 20
 		]
 	];
-	console.log('Недавно я прочитал книги ' + books[0]['title'] + ' и ' + books[1]['title'] + ', написанные соответственно авторами ' + books[0]['author'] + ' и ' + books[1]['author'] + ', я осилил в сумме ' + (books[0]['pages'] + books[1]['pages']) + ' страниц, не ожидал от себя подобного.');
+	console.log('Недавно я прочитал книги ' + books[0][0] + ' и ' + books[1][0] + ', написанные соответственно авторами ' + books[0][1] + ' и ' + books[1][1] + ', я осилил в сумме ' + (books[0][2] + books[1][2]) + ' страниц, не ожидал от себя подобного.');
 
 
 </script>
