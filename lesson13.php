@@ -66,12 +66,16 @@ $arr = array(
 	var books = [];
 	var book1 = [];
 	var book2 = [];
-	var book1 = ['Shikshashtaka', 'Mahaprabhu', 2];
-	var book2 = ['Manah siksha', 'Das Goswami', 20];
+	book1['title'] = 'Shikshashtaka';
+	book1['author'] = 'Mahaprabhu';
+	book1['page'] = 2;
+	book2['title'] = 'Manah siksha';
+	book2['author'] = 'Das Goswami';
+	book2['page'] = 20;
 	books[0] = book1;
 	books[1] = book2;
 
-	console.log('Недавно я прочитал книги ' + books[0][0] + ' и ' + books[1][0] + ', написанные соответственно авторами ' + books[0][1] + ' и ' + books[1][1] + ', я осилил в сумме ' + (books[0][2] + books[1][2]) + ' страниц, не ожидал от себя подобного.');
+	console.log('Недавно я прочитал книги ' + books[0]['title'] + ' и ' + books[1]['title'] + ', написанные соответственно авторами ' + books[0]['author'] + ' и ' + books[1]['author'] + ', я осилил в сумме ' + (books[0]['page'] + books[1]['page']) + ' страниц, не ожидал от себя подобного.');
 
 
 </script>
